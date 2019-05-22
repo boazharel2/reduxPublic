@@ -1,0 +1,81 @@
+/* make room for redux notice*/
+
+.fixed-top {
+    top: 120px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+/* redux notice*/
+
+#notice {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    z-index: 10;
+}
+
+body {
+    padding-top: 200px;
+    font-family: 'HK Grotesk';
+    background: whites;
+}
+
+.navbar.scrolled {
+    background: rgb(138, 166, 194);
+}
+
+.navbar-light .navbar-nav .nav-link.mynav:hover {
+    color: #72C5AA;
+}
+
+#titleline {
+    width: 100%;
+    color: #111111;
+}
+
+#titleimg {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#byParagraph {
+    color: #333333;
+    font-weight: 500;
+}
+
+#maincardTitle {
+    color: #333333;
+    font-weight: 600;
+    background-color: white;
+}
+
+#maincard {
+    border: 1.2px solid #45A787;
+}
+
+.fab.fa-facebook.fa-2x {
+    color: #3b5998;
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.75);
+}
+
+.blockquote {
+    font-size: 0.9rem;
+}
+
+.card-title {
+    color: #066747;
+}
+
+.card {
+    border: 1px solid #45A787;
+}
